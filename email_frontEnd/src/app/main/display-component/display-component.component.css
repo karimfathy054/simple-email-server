@@ -1,0 +1,64 @@
+.display {
+  display: none;
+  z-index: 1;
+  position: fixed;
+  left: 0;
+  top: 50%;
+  width: 80%;
+  height: 80%;
+  overflow: visible;
+  background-color: rgba(0, 127, 253, 0.4);
+  animation-name: -ms-ring;
+  animation-duration: 0.4s;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.msg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: lightblue;
+  color: #0c0910;
+  width: 80%;
+  height: 80%;
+  border-radius: 20px;
+  padding: 15px;
+  animation-name: pop;
+  animation-duration: 0.6s;
+  animation-timing-function: ease-in-out;
+  box-shadow: 5px 5px rgb(10, 10, 10);
+
+}
+.users{
+  font-size: xx-large;
+}
+.sub{
+  font-size: xx-large;
+  display: inline-block;
+  margin-bottom: 1%;
+}
+.content{
+  font-size: x-large;
+  margin-left: 2%;
+}
+.btt{
+  position: absolute;
+  right:    0;
+  bottom:   0;
+  width: 15%;
+  margin-left: 80%;
+  height: 10%;
+  background: #03ea8f;
+}
+
+.btt:hover{
+  background: #e0dddd;
+}

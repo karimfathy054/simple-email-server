@@ -1,0 +1,57 @@
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<body>
+
+
+<div class="ss">
+  <button class="search" (click)="search()"> <i class="material-icons">search</i> </button>
+  <input type="text" class="search" placeholder = "Search..." [(ngModel)]="searchString" *ngIf="!checkSearchType()">
+  <input type="date" class="search" [(ngModel)]="searchString" *ngIf="checkSearchType()">
+  <select name="searchAtt" class="searchAtt" [(ngModel)]="searchAtt" >
+    <option value="to">Receiver</option>
+    <option value="from">Sender</option>
+    <option value="date">Date</option>
+    <option value="imp">Importance</option>
+    <option value="subject">Subject</option>
+  </select>
+  <button class="button5" (click)="plus()"><i class="fa fa-plus" aria-hidden="true"></i></button>
+  <button class="button5" (click)="minus()"><i class="fa fa-minus" aria-hidden="true"></i></button>
+  <button class="button5" (click)="deleteselected()"><i class="fa fa-trash" aria-hidden="true"></i></button>
+  <input class="txt" type="text"[(ngModel)]="foldernamemove" placeholder = "MoveTo...">
+  <button class="button6" (click)="moveselected()"><i class="fa fa-arrows" aria-hidden="true"></i></button>
+</div>
+<div class="specialDiv">
+
+  <div class="div7">
+    <span>
+    <input class="input1" type="checkbox" (click)="selectAll()">
+      <button class="sorter" (click)="sortByFrom()">Sender</button>
+      <button class="sorter" (click)="sortByto()"> Receiver </button>
+      <button class="ssss" (click)="sort()"> Subject </button>
+      <button class="sorter" (click)="sortByImp()"> Importance</button>
+      <button class="sorter" (click)="sortByDate()"> Date </button>
+        <label class="counte">#{{counter}}</label>
+    </span>
+  </div>
+  <ng-container class="container" *ngFor="let item of displayarr;let i=index">
+    <div class="div1">
+      <input class="input1" type="checkbox" value="{{i}}" [(ngModel)]="selected[i]">
+      <span>
+      <label class="span1">{{item.from}}</label>
+      <label class="span1">{{item.to}}</label>
+      <label class="span1">{{item.subject}}</label>
+      <label class="span1">{{item.importance}}</label>
+      <label class="span1">{{convertToDate(item.date).toLocaleDateString()}}</label>
+      <button class="btn" ><i class="fa fa-envelope" aria-hidden="true" (click)="choose(i)"></i></button>
+    </span>
+    </div>
+  </ng-container>
+  <app-display-component *ngIf="getcomposeVisible" class = "compose-box" #composeBox [ngStyle]="{'display' : getcomposeVisible? '':'none'}" >
+
+  </app-display-component>
+
+</div>
+</body>

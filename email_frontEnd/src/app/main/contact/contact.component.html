@@ -1,0 +1,42 @@
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<body>
+
+
+<div class="ss">
+  <button class="search" (click)="search()"> <i class="material-icons">search</i> </button>
+  <input type="text" class="search" placeholder = "Search..." [(ngModel)]="searchString">
+
+  <button class="search" (click)="addContact()"><i class="fa fa-plus" aria-hidden="true"></i></button>
+  <input class="search" type="text"placeholder = "New Contact..." [(ngModel)]="newContact" >
+</div>
+
+
+<div class="specialDiv">
+  <ng-container class="container" *ngFor="let item of contacts;let i=index">
+    <div class="div1">
+      <div class="div5">
+        <span class="span2">{{item.contactName}}</span>
+        <span class="spann">
+          <button class="button2" (click)="addEmail(i)"><i class="fa fa-plus" aria-hidden="true"></i></button>
+          <input class="inputt" type="text"placeholder = "New Mail...." [(ngModel)]="newEmail[i]">
+          <button class="button2"><i class="fa fa-trash" aria-hidden="true" (click)="deleteContact(i)"></i></button>
+          <button class="button2" (click)="renameContact(i)"><i class="fa fa-pencil"></i></button>
+          <input class="inputt" type="text"placeholder = "New Name...." [(ngModel)]="newName[i]">
+        </span>
+      </div>
+
+      <ng-container *ngFor="let temp of item.emails;let j=index">
+        <div class="divv">
+          <span class="span1">{{temp}}</span>
+          <button class="button1" (click)="goToCompose(temp)"><i class="fa fa-comments-o" aria-hidden="true"></i></button>
+          <button class="button2"(click)="deleteEmail(i,j)"><i class="fa fa-trash" aria-hidden="true"></i></button>
+        </div>
+      </ng-container>
+
+    </div>
+  </ng-container>
+</div>
+</body>

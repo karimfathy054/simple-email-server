@@ -1,0 +1,116 @@
+.span1{
+  padding-top: 15px ;
+  font-size: 20px;
+  font-style: normal;
+  display: inline-block;
+  width: 20%;
+  height: 15px;
+}
+.inputt{
+  background-color: #eee;
+  width: 40%;
+  margin-left: 10%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.div5{
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+}
+.divv{
+margin-left: 12%;
+}
+.span2{
+  padding-top: 15px ;
+  padding-bottom: 15px ;
+  font-size: 50px;
+  font-style: normal;
+  display: inline-block;
+  margin-left: 10%;
+  width: 30%;
+  height: 20px;
+  font-weight: bold;
+}
+.div1{
+  border-width:1px;
+  margin-top: 5px;
+  width: 97%;
+}
+.div1:hover{
+  background: rgba(197, 224, 243, 0.5);
+
+}
+.specialDiv{
+  background: rgba(197, 224, 243, 0.1);
+  height: 100vh;
+}
+.ss{
+  margin-bottom: 20px;
+}
+.spann{
+  padding-top: 15px ;
+  padding-bottom: 15px ;
+  width: 40%;
+
+  display: inline-block;
+}
+.button1{
+  margin-left: 60%;
+  display: inline-block;
+  margin-right: 1%;
+  width: 50px;
+  height: 30px;
+  border-radius: 30%;
+  background-color:lightblue;
+}
+.button1:hover{
+  background: #e0dddd;
+}
+.button2{
+  margin-left: 5%;
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  border-radius: 30%;
+  background: lightblue;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.button2:hover{
+  background: #7eee07;
+}
+.input1{
+  display: inline-block;
+  width: 10%;
+  height: 20px;
+}
+
+input.search {
+  width: 40%;
+  height: 50px;
+  text-align: left;
+  font-size: 20px;
+  background-color: #eee;
+  border: none;
+  color: #1d2127;
+  border-radius: 10px;
+}
+input.search:focus {
+  outline: 2px solid #d4d5d8;
+}
+button.search {
+  margin-left: 2%;
+
+  width: 40px;
+  height: 40px;
+  margin-right: 2%;
+  margin-top:10px;
+  z-index: 1;
+}
+button.search:hover, button.filter:hover {
+  background-color: #d4d5d8;
+  border-radius: 50%;
+  cursor: pointer;
+}

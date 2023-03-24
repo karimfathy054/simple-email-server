@@ -1,0 +1,628 @@
+{
+  "mohamed@smart.com" : {
+    "email" : "mohamed@smart.com",
+    "password" : "12345678",
+    "contacts" : {
+      "contacts" : { }
+    },
+    "collection" : {
+      "folds" : {
+        "allmail" : {
+          "name" : "allmail",
+          "messages" : [ {
+            "id" : "jo1w2id7bc2",
+            "to" : "mohamed@smart.com",
+            "from" : "faris@smart.com",
+            "importance" : 2,
+            "date" : 1672925830553,
+            "delete" : 1672925830575,
+            "subject" : "hello",
+            "content" : "aa",
+            "attachment" : ""
+          } ]
+        },
+        "draft" : {
+          "name" : "draft",
+          "messages" : [ ]
+        },
+        "inbox" : {
+          "name" : "inbox",
+          "messages" : [ {
+            "id" : "jo1w2id7bc2",
+            "to" : "mohamed@smart.com",
+            "from" : "faris@smart.com",
+            "importance" : 2,
+            "date" : 1672925830553,
+            "delete" : 1672925830575,
+            "subject" : "hello",
+            "content" : "aa",
+            "attachment" : ""
+          } ]
+        },
+        "sent" : {
+          "name" : "sent",
+          "messages" : [ ]
+        },
+        "trash" : {
+          "name" : "trash",
+          "messages" : [ ]
+        }
+      }
+    }
+  },
+  "faris@smart.com" : {
+    "email" : "faris@smart.com",
+    "password" : "12345678",
+    "contacts" : {
+      "contacts" : { }
+    },
+    "collection" : {
+      "folds" : {
+        "allmail" : {
+          "name" : "allmail",
+          "messages" : [ {
+            "id" : "wdokuwl0qsj",
+            "to" : "faris@smart.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 2,
+            "date" : 1672896772298,
+            "delete" : 1672896772325,
+            "subject" : "hello",
+            "content" : "12",
+            "attachment" : ""
+          }, {
+            "id" : "exyyjjaztio",
+            "to" : "faris@smart.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 3,
+            "date" : 1672898424794,
+            "delete" : 1672898424805,
+            "subject" : "task",
+            "content" : "Hi Faris\n\nI want to ask you if you finish task\n",
+            "attachment" : ""
+          }, {
+            "id" : "cqsipf6ikv1",
+            "to" : "ahmed@smart.com",
+            "from" : "faris@smart.com",
+            "importance" : 2,
+            "date" : 1672898487602,
+            "delete" : 1672898487612,
+            "subject" : "task",
+            "content" : "No, i don`t",
+            "attachment" : ""
+          }, {
+            "id" : "pfvhat18zrp",
+            "to" : "faris@smart.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 0,
+            "date" : 1672898672370,
+            "delete" : 1672898672382,
+            "subject" : "task",
+            "content" : "If you finish it just tell me.",
+            "attachment" : ""
+          }, {
+            "id" : "jo1w2id7bc2",
+            "to" : "faris@smart.com,mohamed@smart.com",
+            "from" : "faris@smart.com",
+            "importance" : 2,
+            "date" : 1672925830553,
+            "delete" : 1672925830572,
+            "subject" : "hello",
+            "content" : "aa",
+            "attachment" : ""
+          }, {
+            "id" : "x474b17lhod",
+            "to" : "faris@smart.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 2,
+            "date" : 1672941436275,
+            "delete" : 1672941436315,
+            "subject" : "1234567",
+            "content" : "hi",
+            "attachment" : "https://file.io/ngZgZ6kwSVXQ"
+          } ]
+        },
+        "draft" : {
+          "name" : "draft",
+          "messages" : [ ]
+        },
+        "inbox" : {
+          "name" : "inbox",
+          "messages" : [ {
+            "id" : "moe1ltrbl3k",
+            "to" : "faris@smart.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 0,
+            "date" : 1672601811305,
+            "delete" : 1672601816340,
+            "subject" : "say Hello",
+            "content" : "I want to say hello",
+            "attachment" : ""
+          }, {
+            "id" : "nh6ysy4wr2x",
+            "to" : "faris@smart.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 4,
+            "date" : 1672601864071,
+            "delete" : 1672601867378,
+            "subject" : "Task",
+            "content" : "Do the needed task",
+            "attachment" : ""
+          }, {
+            "id" : "wdokuwl0qsj",
+            "to" : "faris@smart.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 2,
+            "date" : 1672896772298,
+            "delete" : 1672896772325,
+            "subject" : "hello",
+            "content" : "12",
+            "attachment" : ""
+          }, {
+            "id" : "exyyjjaztio",
+            "to" : "faris@smart.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 3,
+            "date" : 1672898424794,
+            "delete" : 1672898424805,
+            "subject" : "task",
+            "content" : "Hi Faris\n\nI want to ask you if you finish task\n",
+            "attachment" : ""
+          }, {
+            "id" : "x474b17lhod",
+            "to" : "faris@smart.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 2,
+            "date" : 1672941436275,
+            "delete" : 1672941436315,
+            "subject" : "1234567",
+            "content" : "hi",
+            "attachment" : "https://file.io/ngZgZ6kwSVXQ"
+          } ]
+        },
+        "sent" : {
+          "name" : "sent",
+          "messages" : [ {
+            "id" : "iu4krv0o1h8",
+            "to" : "ahmed@smart.com",
+            "from" : "faris@smart.com",
+            "importance" : 3,
+            "date" : 1672601904960,
+            "delete" : 1672601906799,
+            "subject" : "Task",
+            "content" : "I will do it",
+            "attachment" : ""
+          }, {
+            "id" : "lztiz8jn0wr",
+            "to" : "ahmed@smart.com",
+            "from" : "faris@smart.com",
+            "importance" : 5,
+            "date" : 1672602016719,
+            "delete" : 1672602020512,
+            "subject" : "Done Task",
+            "content" : "I did it",
+            "attachment" : ""
+          }, {
+            "id" : "7lwiqtox2cg",
+            "to" : "faris@gmail.com",
+            "from" : "faris@smart.com",
+            "importance" : 0,
+            "date" : 1672614712727,
+            "delete" : 1672614712774,
+            "subject" : "asd",
+            "content" : "asd",
+            "attachment" : ""
+          }, {
+            "id" : "ff4ymcab1yo",
+            "to" : "asdasd",
+            "from" : "faris@smart.com",
+            "importance" : 0,
+            "date" : 1672614721479,
+            "delete" : 1672614721539,
+            "subject" : "ads",
+            "content" : "asdads",
+            "attachment" : ""
+          }, {
+            "id" : "m9kmasfw7oc",
+            "to" : "qw",
+            "from" : "faris@smart.com",
+            "importance" : 0,
+            "date" : 1672614726351,
+            "delete" : 1672614726373,
+            "subject" : "qw",
+            "content" : "wqqwqwq",
+            "attachment" : ""
+          }, {
+            "id" : "zps64huff3h",
+            "to" : "qw",
+            "from" : "faris@smart.com",
+            "importance" : 0,
+            "date" : 1672614738790,
+            "delete" : 1672614738808,
+            "subject" : "qwqw",
+            "content" : "qwewqe",
+            "attachment" : ""
+          }, {
+            "id" : "pmhs3gcz61z",
+            "to" : "as",
+            "from" : "faris@smart.com",
+            "importance" : 0,
+            "date" : 1672615152238,
+            "delete" : 1672615152349,
+            "subject" : "asd",
+            "content" : "asd",
+            "attachment" : ""
+          }, {
+            "id" : "cqsipf6ikv1",
+            "to" : "ahmed@smart.com",
+            "from" : "faris@smart.com",
+            "importance" : 2,
+            "date" : 1672898487602,
+            "delete" : 1672898487612,
+            "subject" : "task",
+            "content" : "No, i don`t",
+            "attachment" : ""
+          }, {
+            "id" : "jo1w2id7bc2",
+            "to" : "faris@smart.com,mohamed@smart.com",
+            "from" : "faris@smart.com",
+            "importance" : 2,
+            "date" : 1672925830553,
+            "delete" : 1672925830572,
+            "subject" : "hello",
+            "content" : "aa",
+            "attachment" : ""
+          } ]
+        },
+        "trash" : {
+          "name" : "trash",
+          "messages" : [ {
+            "id" : "sfpwph7uvtx",
+            "to" : "ahmed@smart.com",
+            "from" : "faris@smart.com",
+            "importance" : 5,
+            "date" : 1672601996103,
+            "delete" : 1672601997968,
+            "subject" : "Done Task",
+            "content" : "I did it",
+            "attachment" : ""
+          }, {
+            "id" : "lztiz8jn0wr",
+            "to" : "ahmed@smart.com",
+            "from" : "faris@smart.com",
+            "importance" : 5,
+            "date" : 1672602016719,
+            "delete" : 1672602020512,
+            "subject" : "Done Task",
+            "content" : "I did it",
+            "attachment" : ""
+          }, {
+            "id" : "pmhs3gcz61z",
+            "to" : "as",
+            "from" : "faris@smart.com",
+            "importance" : 0,
+            "date" : 1672615152238,
+            "delete" : 1672615152349,
+            "subject" : "asd",
+            "content" : "asd",
+            "attachment" : ""
+          }, {
+            "id" : "m9kmasfw7oc",
+            "to" : "qw",
+            "from" : "faris@smart.com",
+            "importance" : 0,
+            "date" : 1672614726351,
+            "delete" : 1672614726373,
+            "subject" : "qw",
+            "content" : "wqqwqwq",
+            "attachment" : ""
+          }, {
+            "id" : "zps64huff3h",
+            "to" : "qw",
+            "from" : "faris@smart.com",
+            "importance" : 0,
+            "date" : 1672614738790,
+            "delete" : 1672614738808,
+            "subject" : "qwqw",
+            "content" : "qwewqe",
+            "attachment" : ""
+          }, {
+            "id" : "pfvhat18zrp",
+            "to" : "faris@smart.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 0,
+            "date" : 1672898672370,
+            "delete" : 1672898672381,
+            "subject" : "task",
+            "content" : "If you finish it just tell me.",
+            "attachment" : ""
+          }, {
+            "id" : "jo1w2id7bc2",
+            "to" : "faris@smart.com,mohamed@smart.com",
+            "from" : "faris@smart.com",
+            "importance" : 2,
+            "date" : 1672925830553,
+            "delete" : 1672925830572,
+            "subject" : "hello",
+            "content" : "aa",
+            "attachment" : ""
+          } ]
+        }
+      }
+    }
+  },
+  "ahmed@smart.com" : {
+    "email" : "ahmed@smart.com",
+    "password" : "12345678",
+    "contacts" : {
+      "contacts" : {
+        "mohamed" : {
+          "contactName" : "mohamed",
+          "emails" : [ "mohamed@smart.com" ]
+        },
+        "faris" : {
+          "contactName" : "faris",
+          "emails" : [ "faris@smart.com" ]
+        }
+      }
+    },
+    "collection" : {
+      "folds" : {
+        "allmail" : {
+          "name" : "allmail",
+          "messages" : [ {
+            "id" : "exyyjjaztio",
+            "to" : "faris@smart.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 3,
+            "date" : 1672898424794,
+            "delete" : 1672898424804,
+            "subject" : "task",
+            "content" : "Hi Faris\n\nI want to ask you if you finish task\n",
+            "attachment" : ""
+          }, {
+            "id" : "cqsipf6ikv1",
+            "to" : "ahmed@smart.com",
+            "from" : "faris@smart.com",
+            "importance" : 2,
+            "date" : 1672898487602,
+            "delete" : 1672898487613,
+            "subject" : "task",
+            "content" : "No, i don`t",
+            "attachment" : ""
+          }, {
+            "id" : "pfvhat18zrp",
+            "to" : "faris@smart.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 0,
+            "date" : 1672898672370,
+            "delete" : 1672898672381,
+            "subject" : "task",
+            "content" : "If you finish it just tell me.",
+            "attachment" : ""
+          }, {
+            "id" : "x474b17lhod",
+            "to" : "faris@smart.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 2,
+            "date" : 1672941436275,
+            "delete" : 1672941436311,
+            "subject" : "1234567",
+            "content" : "hi",
+            "attachment" : "https://file.io/ngZgZ6kwSVXQ"
+          } ]
+        },
+        "draft" : {
+          "name" : "draft",
+          "messages" : [ {
+            "id" : "821kx01j9mq",
+            "to" : "faris@smart.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 0,
+            "date" : 1672898749322,
+            "delete" : 1672898749331,
+            "subject" : "task",
+            "content" : "",
+            "attachment" : ""
+          }, {
+            "id" : "qhi0x6asp8z",
+            "to" : "faris@smart.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 0,
+            "date" : 1672898757874,
+            "delete" : 1672898757884,
+            "subject" : "task",
+            "content" : "",
+            "attachment" : ""
+          } ]
+        },
+        "inbox" : {
+          "name" : "inbox",
+          "messages" : [ {
+            "id" : "cqsipf6ikv1",
+            "to" : "ahmed@smart.com",
+            "from" : "faris@smart.com",
+            "importance" : 2,
+            "date" : 1672898487602,
+            "delete" : 1672898487613,
+            "subject" : "task",
+            "content" : "No, i don`t",
+            "attachment" : ""
+          } ]
+        },
+        "sent" : {
+          "name" : "sent",
+          "messages" : [ {
+            "id" : "lwn1pq5gddo",
+            "to" : "faris@gmail.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 5,
+            "date" : 1672614423896,
+            "delete" : 1672614423965,
+            "subject" : "qw",
+            "content" : "qwe",
+            "attachment" : ""
+          }, {
+            "id" : "wdokuwl0qsj",
+            "to" : "faris@smart.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 2,
+            "date" : 1672896772298,
+            "delete" : 1672896772321,
+            "subject" : "hello",
+            "content" : "12",
+            "attachment" : ""
+          }, {
+            "id" : "y37r7ydxgm7",
+            "to" : "faris@gmail.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 0,
+            "date" : 1672897376330,
+            "delete" : 1672897376356,
+            "subject" : "as",
+            "content" : "as",
+            "attachment" : ""
+          }, {
+            "id" : "r1yb0t9ygt5",
+            "to" : "ahmed@smart.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 2,
+            "date" : 1672897584666,
+            "delete" : 1672897584674,
+            "subject" : "asd",
+            "content" : "asd",
+            "attachment" : ""
+          }, {
+            "id" : "exyyjjaztio",
+            "to" : "faris@smart.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 3,
+            "date" : 1672898424794,
+            "delete" : 1672898424804,
+            "subject" : "task",
+            "content" : "Hi Faris\n\nI want to ask you if you finish task\n",
+            "attachment" : ""
+          }, {
+            "id" : "pfvhat18zrp",
+            "to" : "faris@smart.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 0,
+            "date" : 1672898672370,
+            "delete" : 1672898672381,
+            "subject" : "task",
+            "content" : "If you finish it just tell me.",
+            "attachment" : ""
+          }, {
+            "id" : "x474b17lhod",
+            "to" : "faris@smart.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 2,
+            "date" : 1672941436275,
+            "delete" : 1672941436311,
+            "subject" : "1234567",
+            "content" : "hi",
+            "attachment" : "https://file.io/ngZgZ6kwSVXQ"
+          } ]
+        },
+        "trash" : {
+          "name" : "trash",
+          "messages" : [ {
+            "id" : "moe1ltrbl3k",
+            "to" : "faris@smart.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 0,
+            "date" : 1672601811305,
+            "delete" : 1672601816288,
+            "subject" : "say Hello",
+            "content" : "I want to say hello",
+            "attachment" : ""
+          }, {
+            "id" : "iu4krv0o1h8",
+            "to" : "ahmed@smart.com",
+            "from" : "faris@smart.com",
+            "importance" : 3,
+            "date" : 1672601904960,
+            "delete" : 1672601906799,
+            "subject" : "Task",
+            "content" : "I will do it",
+            "attachment" : ""
+          }, {
+            "id" : "lztiz8jn0wr",
+            "to" : "ahmed@smart.com",
+            "from" : "faris@smart.com",
+            "importance" : 5,
+            "date" : 1672602016719,
+            "delete" : 1672602020512,
+            "subject" : "Done Task",
+            "content" : "I did it",
+            "attachment" : ""
+          }, {
+            "id" : "nh6ysy4wr2x",
+            "to" : "faris@smart.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 4,
+            "date" : 1672601864071,
+            "delete" : 1672601867374,
+            "subject" : "Task",
+            "content" : "Do the needed task",
+            "attachment" : ""
+          }, {
+            "id" : "lwn1pq5gddo",
+            "to" : "faris@gmail.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 5,
+            "date" : 1672614423896,
+            "delete" : 1672614423965,
+            "subject" : "qw",
+            "content" : "qwe",
+            "attachment" : ""
+          }, {
+            "id" : "wdokuwl0qsj",
+            "to" : "faris@smart.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 2,
+            "date" : 1672896772298,
+            "delete" : 1672896772321,
+            "subject" : "hello",
+            "content" : "12",
+            "attachment" : ""
+          }, {
+            "id" : "y37r7ydxgm7",
+            "to" : "faris@gmail.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 0,
+            "date" : 1672897376330,
+            "delete" : 1672897376356,
+            "subject" : "as",
+            "content" : "as",
+            "attachment" : ""
+          }, {
+            "id" : "r1yb0t9ygt5",
+            "to" : "ahmed@smart.com",
+            "from" : "ahmed@smart.com",
+            "importance" : 2,
+            "date" : 1672897584666,
+            "delete" : 1672897584674,
+            "subject" : "asd",
+            "content" : "asd",
+            "attachment" : ""
+          } ]
+        },
+        "FromFaris" : {
+          "name" : "FromFaris",
+          "messages" : [ {
+            "id" : "cqsipf6ikv1",
+            "to" : "ahmed@smart.com",
+            "from" : "faris@smart.com",
+            "importance" : 2,
+            "date" : 1672898487602,
+            "delete" : 1672898550262,
+            "subject" : "task",
+            "content" : "No, i don`t",
+            "attachment" : ""
+          } ]
+        }
+      }
+    }
+  }
+}

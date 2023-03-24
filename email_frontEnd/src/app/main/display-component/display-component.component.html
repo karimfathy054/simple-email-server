@@ -1,0 +1,28 @@
+<div id="container">
+  <div id = 'display' #myDisplay>
+
+    <div class="msg">
+      <div class="users"> Date: <span class="user"> {{wdate.toDateString()}}</span></div>
+      <div>----------------------------------------------
+        --------------------------------------------
+        --------------------------------</div>
+      <div class="users">{{wfrom}}   <span class="arrow">&#8594;</span>  {{wto}}</div>
+      <div>----------------------------------------------
+        --------------------------------------------
+        --------------------------------</div>
+      <div class="sub"> Subject: <span class="subject">{{wsub}}</span></div>
+      <div>----------------------------------------------
+        --------------------------------------------
+        --------------------------------</div>
+      <label class="users">Importance: <span>{{wimpo}}</span> </label>
+      <br><br>
+      <label class="users"> Content:</label>
+
+      <div class="content">{{wcontent}}</div>
+      <div class="content"><a href="{{att}}">{{att}}</a></div>
+      <div>
+        <button  (click)="convert2()" class="btt"> Close </button>
+      </div>
+    </div>
+  </div>
+</div>

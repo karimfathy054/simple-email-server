@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+</head>
+<body>
+<div class="center">
+  <h1>MAIL</h1>
+  <form method="post">
+    <div class="txt_field">
+      <input type="text" required [(ngModel)]="user" name="user">
+      <span></span>
+      <label>Username</label>
+    </div>
+    <div class="txt_field">
+      <input type="password" required [(ngModel)]="pass" name="pass">
+      <span></span>
+      <label>Password</label>
+    </div>
+    <button class="login" (click)="login()">LogIn</button>
+    <br><br>
+    <button class="login" (click)="signUp()">SignUp</button>
+    <br><br>
+  </form>
+</div>
+</body>
+</html>

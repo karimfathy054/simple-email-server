@@ -1,0 +1,56 @@
+<div class="container">
+  <form>
+
+    <div>
+      <label>From:</label><br><br>
+      <label> ME </label>
+    </div>
+
+
+    <div>
+      <label>To:</label><br>
+      <input [(ngModel)] = "to" name = "from" type="text" class="to" (change)="con()">
+    </div>
+
+
+    <div>
+      <label >Subject:</label><br>
+      <input [(ngModel)] = "subject" name = "subject" type="text" class="subject">
+    </div>
+
+
+    <div>
+      <label >Content</label><br>
+      <textarea [(ngModel)] = "content" name = "content"  type="text" cols="30" rows="10"></textarea>
+    </div>
+  </form>
+  <span class="bottom">
+
+          <span class="attach">
+          <input type="file" class="file1" (change)= "attach1($event)"  multiple="multiple">
+          </span>
+        <span class="upload">
+           <button class="upload" (click) = "upload()">Upload</button>
+        </span>
+      <span class="starDiv">
+          <span class="write">Importance</span>
+              <span class="stars">
+                <form action="">
+                  <input class="star star-5" id="star-5" type="radio" name="star"[(ngModel)]="importance" value="5" />
+                  <label class="star star-5" for="star-5"></label>
+                  <input class="star star-4" id="star-4" type="radio" name="star" [(ngModel)]="importance" value="4" />
+                  <label class="star star-4" for="star-4"></label>
+                  <input class="star star-3" id="star-3" type="radio" name="star"[(ngModel)]="importance" value="3" />
+                  <label class="star star-3" for="star-3"></label>
+                  <input class="star star-2" id="star-2" type="radio" name="star"[(ngModel)]="importance" value="2" />
+                  <label class="star star-2" for="star-2"></label>
+                  <input class="star star-1" id="star-1" type="radio" name="star"[(ngModel)]="importance" value="1" />
+                  <label class="star star-1" for="star-1"></label>
+                </form>
+              </span>
+          </span>
+
+      <button class="send" (click) = "sendDraft()">Send to draft</button>
+      <button class="send" (click) = "create()">Send</button>
+    </span>
+</div>

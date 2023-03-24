@@ -1,0 +1,52 @@
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<div class="layout">
+  <section><router-outlet></router-outlet></section>
+  <aside>
+    <span class="name">
+      We Mail
+    </span>
+    <button class="btn1" routerLinkActive="active" (click)="goToCompose()">Compose</button>
+    <button class="btn1" routerLinkActive="active" (click)="goToContacts()">Contacts</button>
+    <button class="btn1" routerLinkActive="active" (click)="change('allmail')"> All mail </button>
+    <button class="btn1" routerLinkActive="active" (click)="change('inbox')"> Inbox </button>
+    <button class="btn1" routerLinkActive="active" (click)="change('trash')"> Trash </button>
+    <button class="btn1" routerLinkActive="active" (click)="change('draft')"> Draft </button>
+    <button class="btn1" routerLinkActive="active" (click)="change('sent')"> Sent </button>
+    <ng-container class="container" *ngFor="let item of folders;let i=index">
+      <div class="div1">
+        <button class="btn1" routerLinkActive="active" (click)="change(item.name)"> {{item.name}} </button>
+        <button class="btn2">
+          <i class="fa fa-trash" aria-hidden="true" (click)="deleteFolder(i)"></i>
+        </button>
+        <button class="btn2" (click)="renameFunc(i)">
+          <i class="fa fa-pencil"></i>
+        </button>
+        <input type="text" [(ngModel)]="renameName" *ngIf="rename[i]" style="margin-left:10%; margin-top:10px; ">
+        <button class="btn2" *ngIf="rename[i]" (click)="renameFolder(i)">
+          <i class="fa fa-edit"></i>
+
+        </button >
+        <button class="btn2" *ngIf="rename[i]" (click)="renameFunc(i)">
+          <i class="fa fa-close"></i>
+        </button>
+
+      </div>
+    </ng-container>
+    <button class="btn1" (click)="showFunc()" >   Addfolder   </button>
+    <input type="text" [(ngModel)]="newFolderName" *ngIf="show" style="margin-left:10%; margin-top:10px; ">
+    <button class="btn2" *ngIf="show" (click)="addNewFolder()">
+      <i class="fa fa-edit"></i>
+    </button >
+    <button class="btn2" *ngIf="show" (click)="showFunc()">
+      <i class="fa fa-close"></i>
+    </button>
+
+
+
+
+  </aside>
+</div>

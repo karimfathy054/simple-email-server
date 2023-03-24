@@ -3,9 +3,9 @@
 implementing a simple email server and a frontend user interface
 
 ## implementation details
-- using Filter design pattern to filter messages according to date/sender/reciever/subject
-- using command design pattern to handle end user commands as sort command
-- using proxy design pattern to handle user login 
+- **using Filter design pattern to filter messages according to date/sender/reciever/subject**
+- **using command design pattern to handle end user commands as sort command**
+- **using proxy design pattern to handle user login** 
 
 - **bussiness logic was implemented in java**
 
